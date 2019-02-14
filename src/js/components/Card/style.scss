@@ -1,0 +1,20 @@
+.card{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .3);
+    transition: all 0.9s;
+    .card-action{
+        .cartPrice{
+            font-weight: bold;
+            color: #007bff;
+        }
+        a:not([href]):not([tabindex]){
+        color: #fff;
+        font-weight: bold;
+    }
+    }
+    &:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+}
+
